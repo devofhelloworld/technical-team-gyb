@@ -1,0 +1,235 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    align-items: flex-end;
+
+
+}
+
+header {
+
+
+
+
+    padding: 40px;
+    margin: 0;
+    height: 40px;
+    display: flex;
+    background-color: rgb(15, 186, 234);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top nav {
+
+    display: flex;
+    align-items: flex-end;
+
+
+
+
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+
+}
+
+nav ul li {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header img {
+    position: absolute;
+    height: 120px;
+
+    left: 80px;
+}
+
+.top ul {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top li {
+
+    justify-content: space-evenly;
+}
+
+.top a {
+
+    color: yellow;
+    font-family: cursive;
+    justify-content: center;
+
+}
+
+.top a:hover {
+
+    color: rgb(5, 5, 5);
+}
+
+.hero {
+
+    position: relative;
+
+
+
+}
+
+.team {
+    background-color: black;
+    top: 50px;
+    padding: 60px;
+    color: rgb(25, 72, 72);
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+
+    text-align: center;
+
+}
+
+.hero h1:hover {
+
+    color: rgb(235, 213, 13);
+}
+
+body {
+
+    background-color: black;
+}
+
+.image {
+
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+
+.sujay img {
+
+    border-radius: 50%;
+    border: solid rgb(7, 7, 7) 5px;
+
+
+}
+
+.sujay img:hover {
+
+    border-color: aqua;
+}
+
+.para {
+    position: absolute;
+    left: 330px;
+    top: 400px;
+    color: white;
+    font-size: 20px;
+}
+
+p:hover {
+
+    color: aquamarine;
+
+}
+
+.disha img {
+
+    border-radius: 50%;
+    border: solid rgb(7, 7, 7) 5px;
+
+}
+
+.disha img {
+
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+
+
+}
+
+.disha img:hover {
+
+    border-color: aqua;
+}
+
+.dishapara {
+    position: absolute;
+    top: 700px;
+    right: 330px;
+    color: white;
+    font-size: 20px;
+}
+
+.sagar img {
+
+    border-radius: 50%;
+    border: solid rgb(7, 7, 7) 5px;
+
+}
+
+.sagar img {
+
+    position: absolute;
+    left: 10px;
+    top: 900px;
+
+
+}
+
+.sagar img:hover {
+
+    border-color: aqua;
+}
+
+.sagarpara {
+    position: absolute;
+    top: 1000px;
+    left: 330px;
+    color: white;
+    font-size: 20px;
+}
+.end{
+
+    background-color: yellow;
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    height: 80px;
+    box-sizing: border-box;
+    justify-content: baseline;
+    color: rgb(7, 9, 9);
+}
+
