@@ -14,40 +14,7 @@
 
 }
 
-/* Ensure full-width containers */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px;
-}
 
-/* Improve mobile layout adjustments */
-@media (max-width: 768px) {
-  .birIjn {
-    visibility: hidden; /* Instead of display: none */
-  }
-}
-
-/* Optimize images for responsiveness */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Use clamp() for dynamic sizing */
-.fFSoPl {
-  width: clamp(256px, 80vw, 1200px);
-}
-
-/* Additional responsive tweaks */
-@media (max-width: 600px) {
-  .nav-menu {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
 
 header {
